@@ -23,25 +23,25 @@ app.use("/api", apiRouter)
 // tarea:
 // En el archivo "apiRouter" declarar el siguiente array de objetos
 
-const zapatos = [
-    {tipo: "Botas", color: "Negro", talle: 35},
-    {tipo: "Botas", color: "Negro", talle: 36},
-    {tipo: "Botas", color: "Negro", talle: 37},
-    {tipo: "Botas", color: "Negro", talle: 38},
-    {tipo: "Botas", color: "Negro", talle: 39},
-    {tipo: "Botas", color: "Negro", talle: 40},
-    {tipo: "Tacos", color: "Negro", talle: 35},
-    {tipo: "Tacos", color: "Negro", talle: 36},
-    {tipo: "Tacos", color: "Negro", talle: 37},
-    {tipo: "Tacos", color: "Negro", talle: 38},
-    {tipo: "Tacos", color: "Negro", talle: 39},
-    {tipo: "Tacos", color: "Negro", talle: 40},
-    {tipo: "Tacos", color: "Azul", talle: 35},
-    {tipo: "Tacos", color: "Azul", talle: 36},
-    {tipo: "Tacos", color: "Azul", talle: 37},
-    {tipo: "Tacos", color: "Azul", talle: 38},
-    {tipo: "Tacos", color: "Azul", talle: 39},
-    {tipo: "Tacos", color: "Azul", talle: 40},
+ const zapatos = [
+    {tipo: "botas", color: "negro", talle: 35},
+    {tipo: "botas", color: "negro", talle: 36},
+    {tipo: "botas", color: "negro", talle: 37},
+    {tipo: "botas", color: "negro", talle: 38},
+    {tipo: "botas", color: "negro", talle: 39},
+    {tipo: "botas", color: "negro", talle: 40},
+    {tipo: "tacos", color: "negro", talle: 35},
+    {tipo: "tacos", color: "negro", talle: 36},
+    {tipo: "tacos", color: "negro", talle: 37},
+    {tipo: "tacos", color: "negro", talle: 38},
+    {tipo: "tacos", color: "negro", talle: 39},
+    {tipo: "tacos", color: "negro", talle: 40},
+    {tipo: "tacos", color: "azul", talle: 35},
+    {tipo: "tacos", color: "azul", talle: 36},
+    {tipo: "tacos", color: "azul", talle: 37},
+    {tipo: "tacos", color: "azul", talle: 38},
+    {tipo: "tacos", color: "azul", talle: 39},
+    {tipo: "tacos", color: "azul", talle: 40},
 ]
 
 // Cuando vamos a la ruta /api debemos mostrar todos los objetos
